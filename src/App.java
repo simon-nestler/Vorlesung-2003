@@ -1,5 +1,6 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello");
+        Widget w1 = new Widget(10, 20);
+        Widget w2 = new Widget(30, 40);
     }
 }
